@@ -82,8 +82,8 @@ function draw() {
 
 function showScores() {
   textSize(32);
-  text('score: ' + score, 1, 32);
-  text('record: ' + maxScore, 1, 64);
+  text('Score : ' + score, 1, 32);
+  text('High Score : ' + maxScore, 1, 64);
 }
 
 function gameover() {
